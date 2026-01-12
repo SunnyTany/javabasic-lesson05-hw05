@@ -27,9 +27,9 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        System.out.println("Введіть, будь ласка, ціле число, щоб розрахувати податок");
+        System.out.println("Введіть, будь ласка, число, щоб розрахувати податок");
         Scanner scanner = new Scanner(System.in);
-        double income = scanner.nextInt();
+        double income = scanner.nextDouble();
         System.out.println("Доход: " + income);
         System.out.println("Податок: " + calculateTax(income));
     }
